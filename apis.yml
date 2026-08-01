@@ -1,7 +1,29 @@
 aid: river-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/river-health.png
 name: River Health
-description: River Health is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  River Health is an employer-sponsored virtual-first health plan operated by
+  Mountain (joinmountain.com) that gives employees comprehensive primary and
+  behavioral care at no cost to them. Members get unlimited virtual primary
+  care and in-person doctor visits, behavioral health and therapy, thousands of
+  free medications with home delivery or pharmacy pickup, free preventive care
+  and screenings, after-hours urgent care, no-cost specialty and chronic-
+  condition care, and free lab testing through Quest Diagnostics. Employers from
+  small businesses to the Fortune 500 sponsor the plan; members enroll and manage
+  care through the River Health member app at app.helloriver.com. River Health is
+  a portfolio company of Techstars. No public developer API, documentation, or
+  developer portal has been published.
 url: https://raw.githubusercontent.com/api-evangelist/river-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Health Care
+- Healthcare
+- Telemedicine
+- Telehealth
+- Primary Care
+- Behavioral Health
+- Mental Health
+- Employee Benefits
+- Digital Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
+  url: https://helloriver.com/
+- type: ParentCompany
   url: https://joinmountain.com/
+- type: SignUp
+  url: https://app.helloriver.com/join
+- type: Login
+  url: https://app.helloriver.com/
+- type: PrivacyPolicy
+  url: https://helloriver.com/privacy-policy
+- type: TermsOfService
+  url: https://helloriver.com/terms-of-service
+- type: DomainSecurity
+  url: security/river-health-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
